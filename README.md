@@ -3,11 +3,11 @@
 
 Este projeto é uma implementação de um sistema simples de gerenciamento de biblioteca, desenvolvido como atividade acadêmica. O sistema foi construído utilizando conceitos de Programação Orientada a Objetos (POO) em Python para modelar as entidades e suas interações.
 
-## 🎯 Objetivo
+## Objetivo
 
 O objetivo é simular as operações básicas de uma biblioteca, como o cadastro de livros e usuários (alunos e professores), e o gerenciamento de empréstimos e devoluções, aplicando os pilares da POO como herança, polimorfismo e composição.
 
-## ✨ Recursos
+## Recursos
 
 - **Cadastro de Livros**: Permite criar novos livros com título, autor, ISBN e status de disponibilidade.
 - **Cadastro de Usuários**: Suporta dois tipos de usuários (Alunos e Professores) através de herança.
@@ -15,7 +15,7 @@ O objetivo é simular as operações básicas de uma biblioteca, como o cadastro
 - **Sistema de Devolução**: Atualiza o status de um livro para "disponível" após a devolução.
 - **Exibição de Informações**: Métodos para visualizar os dados de livros, usuários e resumos de empréstimos.
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto é organizado da seguinte forma:
 
@@ -29,7 +29,7 @@ O projeto é organizado da seguinte forma:
 └── README.md          # Documentação do projeto
 ```
 
-## 🚀 Como Executar
+## Como Executar
 
 Para rodar a simulação do sistema, siga os passos abaixo.
 
@@ -45,7 +45,7 @@ Para rodar a simulação do sistema, siga os passos abaixo.
     ```
 4. A simulação completa será impressa no terminal.
 
-## 👥 Autores
+## Autores
 
 - Guilherme Lenzi de Oliveira
 - Taimisson de Carvalho Schardosim
