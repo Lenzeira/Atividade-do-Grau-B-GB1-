@@ -29,3 +29,6 @@ ENV/
 dist/
 build/
 *.egg-info/ 
+
+_pycache_/
+models/__pycache__
