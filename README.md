@@ -17,10 +17,17 @@ O objetivo é simular as operações básicas de uma biblioteca, como o cadastro
 
 ## 📂 Estrutura do Projeto
 
-O projeto é composto pelos seguintes arquivos:
+O projeto é organizado da seguinte forma:
 
-- `biblioteca.py`: Contém todo o código-fonte em Python com a definição das classes e a simulação do sistema.
-- `README.md`: Este arquivo, com a documentação do projeto.
+```
+.
+├── main.py              # Arquivo principal com a simulação do sistema
+├── models/             # Diretório contendo as classes do sistema
+│   ├── livro.py       # Classe Livro e suas funcionalidades
+│   ├── usuario.py     # Classes Usuario, Aluno e Professor
+│   └── emprestimo.py  # Classe Emprestimo e suas funcionalidades
+└── README.md          # Documentação do projeto
+```
 
 ## 🚀 Como Executar
 
@@ -30,12 +37,15 @@ Para rodar a simulação do sistema, siga os passos abaixo.
 - Ter o [Python 3](https://www.python.org/downloads/) instalado em sua máquina.
 
 **Passos:**
-1.  Clone este repositório ou baixe os arquivos para uma pasta em seu computador.
-2.  Abra um terminal ou prompt de comando na pasta onde o arquivo `biblioteca.py` está localizado.
-3.  Execute o seguinte comando:
+1. Clone este repositório ou baixe os arquivos para uma pasta em seu computador.
+2. Abra um terminal ou prompt de comando na pasta do projeto.
+3. Execute o seguinte comando:
     ```bash
-    python biblioteca.py
+    python main.py
     ```
-4.  A simulação completa será impressa no terminal.
+4. A simulação completa será impressa no terminal.
 
-## 📋 Exemplo de Saída da Simulação
+## 👥 Autores
+
+- Guilherme Lenzi de Oliveira
+- Taimisson de Carvalho Schardosim
