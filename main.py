@@ -47,11 +47,20 @@ def main() -> None:
 
     banner("3. Empréstimos Iniciais")
     emprestimos = []
+
+    print(f"O livro '{livros[0].titulo}' será emprestado para o aluno '{aluno1.nome}'")
+    print(f"O livro '{livros[1].titulo}' será emprestado para o professor '{prof1.nome}'")
+    time.sleep(1.5)
+
     try:
         emprestimos.append(Emprestimo(livros[0], aluno1))
         emprestimos.append(Emprestimo(livros[1], prof1))
+        
+        # Tentativa de emprestar o mesmo livro para outro aluno
+        print("\nTentando emprestar o mesmo livro para outro aluno...")
+        emprestimos.append(Emprestimo(livros[0], aluno2))
     except ValueError as e:
-        print(e)
+        print(f"Erro: {e}")
 
     banner("4. Lista de Empréstimos Ativos")
     for emp in emprestimos:
@@ -66,8 +75,9 @@ def main() -> None:
     banner("6. Novo Empréstimo do Livro Devolvido")
     try:
         emprestimos.append(Emprestimo(livros[0], aluno2))
+        print(f"O livro '{livros[0].titulo}' foi emprestado com sucesso para '{aluno2.nome}'")
     except ValueError as e:
-        print(e)
+        print(f"Erro: {e}")
 
     banner("7. Empréstimos Finais")
     for emp in emprestimos:
