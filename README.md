@@ -1,3 +1,5 @@
+# Guilherme Lenzi de Oliveira e Taimisson de Carvalho Schardosim
+
 # Atividade-do-Grau-B-GB1
 # Sistema de Gerenciamento de Biblioteca em Python (POO)
 
