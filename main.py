@@ -1,3 +1,4 @@
+# Guilherme Lenzi de Oliveira e Taimisson de Carvalho Schardosim
 import time
 from models.livro import Livro
 from models.usuario import Aluno, Professor
